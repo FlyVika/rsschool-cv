@@ -1,7 +1,7 @@
 # Victoria Zvonarenko
 
 ## Junior frontend developer
-***
+
 
 ## Contact information:
 
@@ -54,6 +54,7 @@ pm.test("U_salary eqw salary", function()
 ## Education:
 
 **2011** [Altai state technical university](https://en.altstu.ru/)
+
 ***
 
 ## Languages:
@@ -62,4 +63,3 @@ pm.test("U_salary eqw salary", function()
 * English - B1 Intermediate (according to test at [www.efset.org](https://www.efset.org))
 
 ![Результаты](103557.jpg)
-***
