@@ -29,7 +29,7 @@ Currently I'm actively studying basics of Frontend development. I believe these 
 * UX/UI: Adobe Photoshop, Figma
 ***
 
-## Code example
+## Code example:
 
 ```
 var jsonData = pm.response.json();
@@ -46,12 +46,20 @@ pm.test("U_salary eqw salary", function()
 ```
 ***
 
-## Experience
+## Experience:
 
 2+ years experience as a system analyst in software development projects
 ***
 
-## Education 
+## Education:
 
 **2011** [Altai state technical university](https://en.altstu.ru/)
+***
+
+## Languages:
+
+* Russian - native
+* English - B1 Intermediate (according to test at [www.efset.org](https://www.efset.org))
+
+![Результаты](/103557.jpg)
 ***
