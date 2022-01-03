@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum vitae</title>
+    <title>Victoria Zvonarenko</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">  
@@ -16,9 +16,9 @@
         <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#about-myself" class="nav-link">About myself</a></li>
+              <li class="nav-item"><a href="#summirize" class="nav-link">Summirize</a></li>
               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
               <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
               <li class="nav-item"><a href="#languges" class="nav-link">Languages</a></li>
@@ -27,23 +27,29 @@
     </div>
 </header>
 <main class="main-container">
-    <section id="main-info" class="section">
-        <h1 class="section-title">Victoria Zvonarenko</h1>
-        <p>Junior frontend developer</p>
+    <section id="photo" class="section-left">
+        <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar">
     </section>
-    <section id="contacts" class="section">
+    <section id="name" class="section-right">
+        <h1 class="section-title profile-data">Victoria Zvonarenko</h1>
+        <p class="profile-data">Junior frontend developer</p>
+    </section>
+    <section id="contacts" class="section-left">
         <h2 class="section-title">Contact information</h2>
-        <p>Phone: +7(923)7199075</p>
-        <p>E-mail: zpoint.web@gmail.com</p>
-        <p>Telegram: @FlyVika</p>
+        <ul>
+            <li>Phone: +7(923)7199075</li>
+            <li>E-mail: zpoint.web@gmail.com</li>
+            <li>Telegram: @FlyVika</li>
+        </ul>
     </section>
-    <section id="about-myself" class="section">
-        <h2 class="section-title">About myself</h2>
+    <section id="summirize" class="section-left">
+        <h2 class="section-title">Summirize</h2>
         <p>More than 2 years ago I have started my career as a system analyst in software development projects. Sometimes my responsibilities have  including UX/UI-design steps, thats why I have good knowledge of design tools. 
             Working on software development projects I've became to understand main steps of developing systems,  got skills of analizing users and technical requirments and became to work independentely or as a member of different IT teams.
             Currently I'm actively studying basics of Frontend development. I believe these knowledges would give me opportunity growing up and would give me chance to understand developers better.</p>
     </section>
-    <section id="skills" class="section">
+
+    <section id="skills" class="section-right">
         <h2 class="section-title">Skills</h2>
         <p>
             <ul>
@@ -57,8 +63,8 @@
             </ul>
         </p>
     </section>
-    <section id="code-example" class="section">
-        <h2 class="section-title">Code example</h2>
+    <section id="code" class="section-left">
+        <h2 class="section-title">Code</h2>
         <p>var jsonData = pm.response.json();
             var family = jsonData.family;
             pm.test("Test name - family", function()
@@ -71,15 +77,15 @@
                 pm.expect(jsonData.family.u_salary_1_5_year).to.eql(salary_4);    
             })</p>
     </section>
-    <section id="experience" class="section">
+    <section id="experience" class="section-right">
         <h2 class="section-title">Experience</h2>
         <p>2+ years experience as a system analyst in software development projects</p>
     </section>
-    <section id="education" class="section">
+    <section id="education" class="section-left">
         <h2 class="section-title">Education</h2>
         <p>[Altai state technical university](https://en.altstu.ru/)</p>
     </section>
-    <section id="languges" class="section">
+    <section id="languges" class="section-right">
         <h2 class="section-title">Languages</h2>
         <ul>
             <li>Russian - native</li>
