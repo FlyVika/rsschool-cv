@@ -27,74 +27,85 @@
     </div>
 </header>
 <main class="main-container">
-    <section id="photo" class="section-left">
-        <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar">
-    </section>
-    <section id="name" class="section-right">
-        <h1 class="section-title profile-data">Victoria Zvonarenko</h1>
-        <p class="profile-data">Junior frontend developer</p>
+    <div id="photo" class="section-left">
+        <img src="./assets/img/avatar.jpg" alt="avatar" class="profile-photo">
+    </div>
+    <section id="name" class="section-right profile-data">
+        <h1 class="section-title">Victoria Zvonarenko</h1>
+        <p>Junior frontend developer</p>
     </section>
     <section id="contacts" class="section-left">
         <h2 class="section-title">Contact information</h2>
-        <ul>
-            <li>Phone: +7(923)7199075</li>
-            <li>E-mail: zpoint.web@gmail.com</li>
-            <li>Telegram: @FlyVika</li>
+        <ul class="section-list">
+            <li class="contact-item">E-mail: 
+                <a href="mailto:zpoint.web@gmail.com">zpoint.web@gmail.com</a>
+            </li>
+            <li class="contact-item">Telegram: 
+                <a href="https://t.me/FlyVika">@FlyVika</a>
+            </li>
+            <li class="contact-item">Discord:
+                <a href="https://discord.com">@Viktoria#8179</a>
+            </li>
         </ul>
     </section>
     <section id="summirize" class="section-left">
         <h2 class="section-title">Summirize</h2>
-        <p>More than 2 years ago I have started my career as a system analyst in software development projects. Sometimes my responsibilities have  including UX/UI-design steps, thats why I have good knowledge of design tools. 
-            Working on software development projects I've became to understand main steps of developing systems,  got skills of analizing users and technical requirments and became to work independentely or as a member of different IT teams.
-            Currently I'm actively studying basics of Frontend development. I believe these knowledges would give me opportunity growing up and would give me chance to understand developers better.</p>
-    </section>
-
-    <section id="skills" class="section-right">
-        <h2 class="section-title">Skills</h2>
-        <p>
-            <ul>
-                <li>Core: HTML5, CSS3</li>
-                <li>Version Control System: Git (Git-hub)</li>
-                <li>Editor: VSCode</li>
-                <li>Task trackers: Trello, Redmine</li>
-                <li>API testing tools: SoapUI, Postman</li>
-                <li>Basics knowledge of SQL-scripts</li>
-                <li>UX/UI: Adobe Photoshop, Figma, Miro, Axure</li>
-            </ul>
+        <p>More than 2 years ago I have started my career on software development projects as a system analyst. Sometimes my responsibilities have  including UX/UI-design steps, thats why I have good knowledge of design tools. 
+        Working on software development projects I've became to understand main steps of developing systems,  got skills of analizing users and technical requirments and became to work independentely or as a member of different IT teams.
+        </p>
+        <p>Currently I'm actively studying basics of Frontend development. I believe these knowledges would give me opportunity growing up and would give me chance to understand developers better.
         </p>
     </section>
-    <section id="code" class="section-left">
-        <h2 class="section-title">Code</h2>
-        <p>var jsonData = pm.response.json();
-            var family = jsonData.family;
-            pm.test("Test name - family", function()
-            {
-                console.log("family =", family);
-            })
-            pm.test("U_salary eqw salary", function()
-            {
-                var salary_4= pm.request.body.formdata.get("salary") * 4;
-                pm.expect(jsonData.family.u_salary_1_5_year).to.eql(salary_4);    
-            })</p>
+    <section id="skills" class="section-right">
+        <h2 class="section-title">Skills</h2>
+            <ul>
+                <li> <span>Core:</span> HTML5, CSS3</li>
+                <li> <span>Version Control System:</span> Git (Git-hub)</li>
+                <li> <span>Editor:</span> VSCode</li>
+                <li> <span>Task trackers:</span> Trello, Redmine</li>
+                <li> <span>API testing tools:</span> SoapUI, Postman</li>
+                <li>Basics knowledge of SQL-scripts</li>
+                <li> <span>UX/UI:</span> Adobe Photoshop, Figma, Miro, Axure</li>
+            </ul>
+
     </section>
-    <section id="experience" class="section-right">
+    <section id="experience" class="section-left">
         <h2 class="section-title">Experience</h2>
         <p>2+ years experience as a system analyst in software development projects</p>
     </section>
+    <section id="code" class="section-right">
+        <h2 class="section-title">Code</h2>
+        <div class="code-p">
+        <code> var jsonData = pm.response.json();</code>
+        <code> var family = jsonData.family;</code>
+        <code> pm.test("U eqw salary", function(){ </code>
+        <code> var sal_4= pm.request.body.formdata.get("sal")*4;</code>
+        <code> pm.expect(jsonData.family.u_sal).to.eql(sal_4);})</code>
+        </div>
+    </section>
     <section id="education" class="section-left">
         <h2 class="section-title">Education</h2>
-        <p>[Altai state technical university](https://en.altstu.ru/)</p>
+        <a  class="" href="https://en.altstu.ru/">Altai state technical university</a>
     </section>
     <section id="languges" class="section-right">
         <h2 class="section-title">Languages</h2>
         <ul>
-            <li>Russian - native</li>
-            <li>English - B1 Intermediate (according to test at [www.efset.org](https://www.efset.org))</li>
+            <li>Russian - <span>native</span></li>
+            <li>English - <span> B1 Intermediate</span>(according to test at
+               <a href="https://www.efset.org">www.efset.org</a>)</li>
         </ul>
     </section>
 </main>
 <footer>
-    <div class="container"></div>
+    <div class="container footer-container">
+        <div>
+            @2022
+            <a class="github nav-link" href="https://github.com/flyvika">
+                VictoriaZ
+            </a>
+        </div>
+        <a class="rss" href="https://rs.school/js/"></a>
+    </div>
 </footer>
 
 </body>
