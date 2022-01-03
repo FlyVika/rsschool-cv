@@ -1,3 +1,156 @@
-.for_git{
-    text-align: justify;
+* {
+  box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5c5757;
+  }
+a {
+  color: #5c5757;
+  transition: color 0.5s;
+  font-size: 14px;
+}
+span {
+  font-weight: 900;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+  }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #8e8983;
+  }
+.nav-link:hover {
+  transition: .3s;
+  color: #4d2323;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-container h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #5c5757;
+}
+.main-container p, ul, li {
+  font-size: 14px;
+  color: #5c5757;
+}
+.section-left {
+  background-color: #b9b4ae;
+  width: 60%;
+  padding: 0 3% 0 3%;
+}
+.section-right{
+  width: 40%;
+  padding: 0 3% 0 3%;
+}
+.profile-photo {
+  display: block;
+  margin: 10% auto 10% auto;
+}
+.profile-data{
+  position: relative;
+  padding-top: 10%;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.profile-data p{
+  font-size: 18px;
+}
+/*.avatar {
+  margin: 10% 0 0 33% ;
+  width: 250px;
+  height: 350px;
+  transition: .3s;
+}*/
+.section-list {
+  list-style-type: none;
+}
+.section-list a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+}
+.contact-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+.code-p code{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 70%;
+}
+footer{
+  padding: 20px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #5c5757;
+}
+.github{
+  color: #5c5757;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 45px;
+  font-size: 16px;
+}
+.rss{
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/img/logo-rsschool3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .nav-list {
+    font-size: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .nav-list {
+    font-size: 60%;
+  }
+  .section-left {
+    width: 100%;
+  }
+  .section-right{
+    width: 100%;
+  }
+}
+

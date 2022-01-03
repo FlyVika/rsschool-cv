@@ -68,4 +68,4 @@ pm.test("U_salary eqw salary", function()
 * Russian - native
 * English - B1 Intermediate (according to test at [www.efset.org](https://www.efset.org))
 
-![Результаты](103557.jpg)
+![Результаты](assets/img/103557.jpg)
